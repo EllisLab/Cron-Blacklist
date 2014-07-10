@@ -11,13 +11,13 @@ and you do not have your license number filled out, I will scold you mightily.
 
 [Find your license number](http://expressionengine.com/knowledge_base/article/my_expressionengine_license_number/)
 
-## EXAMPLES
+## Examples
 
 Updates site blacklist with ExpressionEngine.com Blacklist at 5am every morning
 
     {exp:cron minute="0" hour="5" plugin="cron_blacklist"}{/exp:cron}
 
-Version 1.1
-******************
-- Updated plugin to be 2.0 compatible
+## Change Log
 
+- Version 1.1
+	- Updated plugin to be 2.0 compatible
